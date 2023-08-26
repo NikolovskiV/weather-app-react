@@ -1,0 +1,136 @@
+.weather-container {
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 12px -3px 22px 3px rgba(238 221 130);
+  color: #fff;
+  background-color: #333333ae;
+  margin: -20px auto 0 auto;
+  padding: 0 20px 10px 20px;
+}
+
+.header-container,
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-name {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: 1.2px;
+}
+
+.weather-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: 0.7px;
+  color: rgb(58, 219, 219);
+}
+
+.weather-icon {
+  width: 120px;
+}
+
+.weather-temperature {
+  font-weight: 700;
+  font-size: 60px;
+  width: auto;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  color: rgb(58, 219, 219);
+}
+
+.weather-details {
+  width: 100%;
+  padding-left: 80px;
+}
+
+.weather-parameter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-label {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.weather-value {
+  text-align: right;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(58, 219, 219);
+}
+
+.weather-label.details {
+  border-bottom: 1px solid rgba(238, 222, 130, 0.395);
+  font-weight: bolder;
+}
+
+@media (max-width: 375px) {
+  .weather-container {
+    width: 270px;
+    margin: -28px auto;
+    text-align: center;
+  }
+  .city-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: 1.2px;
+  }
+
+  .weather-description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+
+  .weather-icon {
+    width: 50px;
+  }
+
+  .weather-temperature {
+    font-weight: 500;
+    font-size: 35px;
+    width: auto;
+    letter-spacing: 1px;
+    margin: 20px 0 -5px;
+  }
+
+  .weather-details {
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 10px;
+  }
+
+  .weather-label {
+    text-align: left;
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .weather-value {
+    text-align: right;
+    font-weight: 700;
+    font-size: 9.5px;
+  }
+
+  .weather-label.details {
+    border-bottom: 1px solid rgba(238, 222, 130, 0.395);
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 920px) {
+}
