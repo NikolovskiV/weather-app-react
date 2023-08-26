@@ -19,7 +19,7 @@ const Search = ({ newSearchCity }) => {
 
     try {
       const response = await fetch(
-        `${url}/cities?minPopulation=100000&namePrefix=${inputValue}`,
+        `${url}/cities?minPopulation=1000&namePrefix=${inputValue}`,
         options
       );
       const data = await response.json();
@@ -61,9 +61,10 @@ const Search = ({ newSearchCity }) => {
           borderRadius: '2rem',
           // Full width for screens up to 375px
           '@media (max-width: 375px)': {
-            width: '340px',
+            width: '330px',
             height: '30px',
             fontSize: '18px',
+            marginTop: '-15px',
           },
         }),
         input: (provided) => ({

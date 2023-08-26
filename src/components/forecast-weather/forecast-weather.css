@@ -87,11 +87,12 @@
     margin-right: 22px;
   }
   .forecast-title {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 6px;
     margin-left: 40%;
-    color: #fff;
+
+    color: #000000;
   }
   .forecast-daily-item {
     width: 270px;
@@ -138,21 +139,23 @@
     display: grid;
     flex: 1 1;
     grid-row-gap: 0;
-    grid-column-gap: 16px;
-    column-gap: 80px;
+    grid-column-gap: 8px;
+    column-gap: 40px;
     row-gap: 0;
     grid-template-columns: auto auto;
-    padding: 6px 16px;
-    width: 100%;
-    margin-left: 12px;
+    padding: 3px 8px;
+    width: 293px;
+    margin-left: -20px;
     border-radius: 20px;
+    font-size: 12px;
   }
 
   .weather-details-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
+    height: 20px;
+    font-size: 12px;
   }
 }
 

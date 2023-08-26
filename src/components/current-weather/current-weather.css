@@ -76,7 +76,7 @@
 @media (max-width: 375px) {
   .weather-container {
     width: 270px;
-    margin: -28px auto;
+    margin: -30px auto;
     text-align: center;
   }
   .city-name {

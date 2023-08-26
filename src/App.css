@@ -22,18 +22,7 @@
   }
 }
 
-.container {
-  max-width: 580px;
-  margin: auto;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  /* align-items: center; */
-  gap: 4rem;
-}
-
-@media (max-width: 920px) {
+@media (max-width: 375px) {
   .container {
     max-width: 580px;
     margin: auto;
@@ -42,6 +31,6 @@
     flex-direction: column;
     height: 100%;
     /* align-items: center; */
-    gap: 4rem;
+    gap: 3.9em;
   }
 }
